@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='w-screen h-[80px] z-10 bg-[#f9f9f9] fixed drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-            <h1 className='text-4xl font-bold mr-4 sm:text-3xl flex'> <img src={cloudLogo} className='w-8 mr-2' alt='Cloud-logo' /> Cloud</h1>
+            <h1 className='text-4xl font-bold mr-4 sm:text-3xl flex'> <img src={cloudLogo} className='w-8 mr-2' alt='Cloud-logo'/>Cloud</h1>
             <ul className='hidden md:flex gap-7 fort-bold text-2xl px-40'>
                 <li>Home</li>
                 <li>About</li>
