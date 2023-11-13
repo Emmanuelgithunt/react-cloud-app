@@ -40,11 +40,11 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? 'hidden' : 'absolute bg-[#f9f9f9] w-[100%] px-8'} onClick={handleClose}>
-        <li border-b-2 py-3 border-black-300 w-full>Home</li>
-        <li border-b-2 py-3 border-black-300 w-full>About</li>
-        <li border-b-2 py-3 border-black-300 w-full>Support</li>
-        <li border-b-2 py-3 border-black-300 w-full>Platform</li>
-        <li border-b-2 py-3 border-black-300 w-full>Pricing</li>
+        <li className='border-b-2 py-3 border-black-300 w-full'>Home</li>
+        <li className='border-b-2 py-3 border-black-300 w-full'>About</li>
+        <li className='border-b-2 py-3 border-black-300 w-full'>Support</li>
+        <li className='border-b-2 py-3 border-black-300 w-full'>Platform</li>
+        <li className='border-b-2 py-3 border-black-300 w-full'>Pricing</li>
 
         <div className='flex flex-col my-4'>
             <button className='bg-black text-white px-8 py-3 mb-4 rounded-2xl'>Login</button>

@@ -35,6 +35,11 @@ const HeroPage2 = () => {
                 <p className='text-6xl font-bold text-indigo-600'>Free</p>
                 <p className='text-gray-400 mt-2 font-bold'>Delivery</p>
             </div>
+
+            <div className='border py-8 rounded-xl shadow-2xl'>
+                <p className='text-6xl font-bold text-indigo-600'>100%</p>
+                <p className='text-gray-400 mt-2 font-bold'>Online Transactions</p>
+            </div>
         </div>
       </div>
     </div>
