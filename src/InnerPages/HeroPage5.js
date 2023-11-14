@@ -3,7 +3,7 @@ import {BsCheck2} from 'react-icons/bs'
 
 const HeroPage5 = () => {
   return (
-    <div className='w-full text-white my-2 rounded-t-[50px]'>
+    <div className='w-full text-white my-2 rounded-t-[50px] bg-indigo-600'>
       <div className='max-w-[800px] bg-slate-900 absolute min-blend-overlay'></div>
 
 

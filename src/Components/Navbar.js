@@ -1,6 +1,7 @@
 import React from 'react'
 import cloudLogo from '../Assets/cloud-icon-8.png';
 import {AiOutlineBars, AiOutlineCloseCircle} from 'react-icons/ai';
+import {Link} from 'react-router-dom';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -21,17 +22,17 @@ const Navbar = () => {
         <div className='flex items-center'>
             <h1 className='text-4xl font-bold mr-4 sm:text-3xl flex'> <img src={cloudLogo} className='w-8 mr-2' alt='Cloud-logo'/>Cloud</h1>
             <ul className='hidden md:flex gap-7 font-bold text-2xl px-40'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Support</li>
-                <li>Platform</li>
-                <li>Pricing</li>
+                <Link to='/'><li>Home</li></Link>
+                <Link to='/about'><li>About</li></Link>
+                <Link to='/support'><li>Support</li></Link>
+                <Link to='/platform'><li>Platform</li></Link>
+                <Link to='/pricing'><li>Pricing</li></Link>
             </ul>
         </div>
 
         <div className='hidden md:flex pr-4'>
-            <button className='border-none bg-black text-white rounded-x1 px-5 py-3 mr-4'>Login</button>
-            <button className='border-none bg-black text-white rounded-x1 px-5 py-3 mr-43'>Register</button>
+            <button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-4'>Login</button>
+            <button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-43'>Register</button>
         </div>
 
         <div className='md:hidden mr-4' onClick={handleClick}>

@@ -30,7 +30,7 @@ const HeroPage3 = () => {
               <p className='text-gray-600 text-xl'>"Customer experience is a priority for us. We are nothing if we don't have great visuals. And with Cloud we are confident that our cust omers are always getting the best experience."</p>
             </div>
 
-            <div className='bg-slate-100 pl-8 py-4 hover:bg-slate-200 rounded-[50px]'>
+            <div className='bg-slate-100 pl-8 py-4 hover:bg-slate-200 hover:rounded-[50px]'>
               <p className='flex items-center text-indigo-600 hover:text-indigo-800'><span className='w-5 ml-2'><AiOutlineArrowRight size={25}/></span></p>
             </div>
           </div>
