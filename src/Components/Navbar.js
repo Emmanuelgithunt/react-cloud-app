@@ -31,8 +31,8 @@ const Navbar = () => {
         </div>
 
         <div className='hidden md:flex pr-4'>
-            <button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-4'>Login</button>
-            <button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-43'>Register</button>
+            <Link to='/log'><button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-4'>Login</button></Link>
+            <Link to='/register'><button className='border-none bg-black text-white rounded-xl px-5 py-3 mr-43'>Register</button></Link>
         </div>
 
         <div className='md:hidden mr-4' onClick={handleClick}>

@@ -8,6 +8,9 @@ import Support from './Pages/Support';
 import Platform from './Pages/Platform';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Pricing from './Pages/Pricing';
+import Login from './InnerPages/Login';
+import Register from './InnerPages/Register'
+import Forgotten from './InnerPages/Forgotten';
 
 const App = () => {
   return (
@@ -19,10 +22,14 @@ const App = () => {
         <Route path='/platform' element={<Platform/>}/>
         <Route path='/pricing' element={<Pricing/>}/>
         <Route path='/support' element={<Support/>}/>
+        <Route path='/log' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/forget' element={<Forgotten/>}/>
       </Routes>
 
       <Footer/>
     </Router>
+
   )
 }
 
